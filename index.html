@@ -1,0 +1,932 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>รับตั้งนามสกุลมงคล ตามดวงเจ้าของนามสกุลและครอบครัว | TheLuckyName อ.ชัญ</title>
+<meta name="description" content="รับตั้งนามสกุลมงคลโดย อ.ชัญ วิเคราะห์ 3 ศาสตร์ ร่วมกับชื่อจริงและพื้นดวง ตรวจความซ้ำก่อนส่งมอบ พร้อมฤกษ์เริ่มใช้ เริ่มต้น 1,999 บาท (+VAT)">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@400;500;600&family=Noto+Serif+Thai:wght@500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#6D0EB1;--ink-2:#5B0C95;--royal:#6D0EB1;--royal-soft:#F2E7FB;
+  --gold:#EFC35C;--gold-deep:#8A6112;--gold-soft:#F4E7C8;
+  --paper:#FAF6FD;--white:#FFFFFF;--line:#E6DAF1;--text:#2A0A45;--muted:#5D5370;
+  --line-green:#06C755;--on-dark:rgba(255,255,255,.88);--on-dark-2:rgba(255,255,255,.74);
+  --serif:"Noto Serif Thai", serif;--sans:"IBM Plex Sans Thai Looped", system-ui, sans-serif;
+  --wrap:1160px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;padding-top:env(safe-area-inset-top,0px)}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important;animation:none!important}}
+body{margin:0;background:var(--paper);color:var(--text);font-family:var(--sans);font-size:17px;line-height:1.75;-webkit-font-smoothing:antialiased}
+img{max-width:100%;display:block;border:0}
+section{background:transparent;margin:0}
+li{margin:0}
+h1,h2,h3,h4{color:inherit;text-transform:none;letter-spacing:0}
+table th,table td{border:0}
+button{font-family:inherit}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--gold);outline-offset:3px;border-radius:6px}
+.wrap{max-width:var(--wrap);margin:0 auto;padding-left:max(20px, env(safe-area-inset-left, 0px));padding-right:max(20px, env(safe-area-inset-right, 0px))}
+h1,h2,h3{font-family:var(--serif);line-height:1.4;margin:0;font-weight:700}
+h2{font-size:clamp(1.6rem,3vw,2.3rem)}
+h3{font-size:1.2rem}
+p{margin:0}
+.nw{white-space:nowrap}
+.lede{color:var(--muted);max-width:62ch;margin-top:12px}
+section{padding:88px 0}
+.sec-head{margin-bottom:40px}
+.todo{display:inline-block;background:#FFF1B8;color:#6B5200;font:600 .75rem/1.3 var(--sans);padding:5px 9px;border-radius:6px}
+
+/* buttons */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;font:600 1.02rem/1.25 var(--sans);padding:17px 26px;border-radius:999px;text-decoration:none;border:2px solid transparent;cursor:pointer;transition:transform .15s ease, background-color .15s ease;text-align:center}
+.btn:active{transform:scale(.98)}
+.btn-line{background:var(--line-green);color:#fff}
+.btn-line:hover{background:#05b04b}
+.btn-ghost{border-color:rgba(255,255,255,.45);color:#fff;background:transparent}
+.btn-ghost:hover{background:rgba(255,255,255,.08)}
+.btn-outline{border-color:var(--ink);color:var(--ink);background:transparent}
+.btn-outline:hover{background:var(--royal-soft)}
+.btn svg{width:22px;height:22px;flex:none}
+.btn .ln{width:22px;height:22px;flex:none;display:inline-block;background:no-repeat center/contain url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23fff' d='M12 3C6.5 3 2 6.6 2 11c0 3.9 3.5 7.2 8.3 7.9.3.1.8.2.9.5.1.3.1.7 0 1l-.1.9c0 .3-.2 1 .9.5s5.9-3.5 8-6C21.3 14.3 22 12.7 22 11c0-4.4-4.5-8-10-8Zm-3.5 10.4H6.6a.5.5 0 0 1-.5-.5V9a.5.5 0 0 1 1 0v3.4h1.4a.5.5 0 0 1 0 1Zm2-.5a.5.5 0 0 1-1 0V9a.5.5 0 0 1 1 0Zm4.6 0a.5.5 0 0 1-.9.3l-2-2.7v2.4a.5.5 0 0 1-1 0V9a.5.5 0 0 1 .9-.3l2 2.7V9a.5.5 0 0 1 1 0Zm3.1-2.4a.5.5 0 0 1 0 1h-1.4v.9h1.4a.5.5 0 0 1 0 1h-1.9a.5.5 0 0 1-.5-.5V9a.5.5 0 0 1 .5-.5h1.9a.5.5 0 0 1 0 1h-1.4v.9Z'/%3E%3C/svg%3E")}
+.mbar .btn{gap:6px}
+
+/* header */
+.top{background:var(--ink);color:#fff;border-bottom:1px solid rgba(255,255,255,.08)}
+.top .wrap{display:flex;align-items:center;justify-content:space-between;height:68px}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;font-family:var(--serif);font-weight:700;font-size:1.1rem}
+.brand img{width:44px;height:44px;border-radius:50%;background:#fff}
+.top-links{display:flex;align-items:center;gap:18px;font-size:.95rem}
+.top-links a{text-decoration:none}
+.top-links .tel{opacity:.85}
+.top-links .btn{padding:10px 18px;font-size:.92rem}
+
+/* hero */
+.hero{background:var(--ink);color:#fff;padding:64px 0 80px;overflow:hidden}
+.hero .wrap{display:grid;grid-template-columns:1.05fr .95fr;gap:56px;align-items:start}
+.hero .wrap > div:first-child{padding-top:36px}
+.hero h1{font-size:clamp(2.05rem,4.3vw,3.35rem);font-weight:800;line-height:1.38}
+.hero h1 small{display:block;font-size:.5em;font-weight:600;color:var(--gold);margin-top:10px;font-family:var(--serif)}
+.hero .sub{color:rgba(255,255,255,.82);margin-top:22px;max-width:52ch;font-size:1.08rem}
+.hero .ctas{display:flex;flex-wrap:wrap;gap:12px;margin-top:32px}
+.facts{display:flex;flex-wrap:wrap;margin:40px 0 0;padding:0;list-style:none}
+.facts li{padding:0 22px;border-left:1px solid rgba(255,255,255,.22);line-height:1.45}
+.facts li:first-child{padding-left:0;border-left:0}
+.facts b{display:block;font-family:var(--serif);font-size:1.45rem;color:var(--gold)}
+.facts span{font-size:.9rem;color:rgba(255,255,255,.75)}
+.facts .lead-fact b{font-size:2rem;line-height:1.2}
+
+/* Thai birth chart */
+.chart-card{background:var(--ink-2);border:1px solid rgba(255,255,255,.12);border-radius:28px;padding:30px 28px}
+.chart-card h3{font-size:1.35rem;color:#fff}
+.chart-card .hint{color:var(--on-dark-2);margin-top:4px;font-size:1rem}
+.people{display:flex;flex-wrap:wrap;gap:8px;margin:18px 0 4px}
+.people button{font:500 .95rem/1 var(--sans);padding:10px 15px;border-radius:999px;border:1px solid rgba(255,255,255,.3);background:transparent;color:#fff;cursor:pointer}
+.people button[aria-pressed="true"]{background:var(--gold);border-color:var(--gold);color:var(--text);font-weight:600}
+.chart-wrap{max-width:420px;margin:24px auto 0}
+#chart{width:100%;height:auto;display:block}
+#chart .sg{fill:#47087A;stroke:#8C45CC;stroke-width:1.2;transition:fill .6s ease}
+#chart .sg.lag{fill:#6B4C17}
+#chart .sname{fill:rgba(255,255,255,.72);font:500 12.5px var(--sans)}
+#chart .pl{fill:#fff;font:700 21px var(--serif)}
+#chart .lagt{fill:#FFD27A}
+#chart .pl.strong{fill:#FFE38F;filter:drop-shadow(0 0 4px rgba(239,195,92,.95)) drop-shadow(0 0 8px rgba(239,195,92,.6))}
+#chart .hub{fill:#3B0663;stroke:#8C45CC}
+#chart .hub-cap{fill:rgba(255,255,255,.75);font:500 10.5px var(--sans);transition:opacity .18s ease}
+#chart .hub-main{fill:#fff;font:700 17px var(--serif);transition:opacity .18s ease}
+#chart .houses{transform-box:view-box;transform-origin:220px 220px;transition:transform 1s cubic-bezier(.65,0,.25,1)}
+#chart .hs{fill:#3B0663;stroke:#8C45CC;stroke-width:1}
+#chart .hs.key{fill:#EFC35C}
+#chart .hname{fill:rgba(255,255,255,.8);font:500 9.5px var(--sans);transform-box:fill-box;transform-origin:center;transition:transform 1s cubic-bezier(.65,0,.25,1)}
+#chart .hname.key{fill:#2A0A45;font-weight:700}
+.legend{display:flex;flex-wrap:wrap;justify-content:center;gap:4px 14px;margin-top:12px;font-size:.9rem;color:var(--on-dark-2)}
+.legend b{color:#fff;font-family:var(--serif)}
+.legend b.glow{color:#FFE38F;text-shadow:0 0 6px rgba(239,195,92,.9)}
+.lag-mean{display:block;color:var(--on-dark-2);font-size:.95rem;line-height:1.6;margin-top:2px}
+.none-strong{color:var(--on-dark-2);font-size:.95rem;margin-top:16px}
+.readout{display:grid;grid-template-columns:auto 1fr;gap:8px 16px;margin:22px 0 0;font-size:1rem}
+.readout dt{font-family:var(--serif);font-weight:700;color:var(--gold)}
+.readout dd{margin:0;color:var(--on-dark)}
+.readout dd em{font-style:normal;color:var(--on-dark-2);font-size:.95rem}
+.readout .hl-letters{display:block;color:var(--gold);font-weight:600;letter-spacing:.04em}
+.houses-h{font-family:var(--serif);font-size:1.05rem;color:#fff;margin:20px 0 -10px;padding-top:16px;border-top:1px solid rgba(255,255,255,.14)}
+.picks{margin-top:20px;background:rgba(0,0,0,.18);border:1px solid rgba(239,195,92,.45);border-radius:16px;padding:16px 18px}
+.picks p{font-size:.95rem;color:var(--on-dark-2);margin-bottom:10px}
+.picks span{display:inline-flex;flex-direction:column;margin:0 18px 6px 0}
+.picks b{font-family:var(--serif);font-size:1.35rem;color:var(--gold);letter-spacing:.06em;line-height:1.3}
+.picks small{font-size:.85rem;color:var(--on-dark-2)}
+.chart-cta{margin-top:20px;width:100%}
+.chart-note{font-size:.92rem;color:var(--on-dark-2);margin-top:16px;line-height:1.65}
+
+/* pain/gain */
+.hero-pg{margin-top:34px}
+.hero-pg h2{font-size:clamp(1.3rem,2.2vw,1.6rem);color:#fff;line-height:1.4}
+.hero-pg .lede{color:rgba(255,255,255,.78);font-size:.98rem}
+.hero-pg .pg{margin-top:18px;color:var(--text)}
+@media (min-width:641px){.hero-pg .pg th,.hero-pg .pg td{padding:14px 16px;font-size:.93rem;line-height:1.6}.hero-pg .pg thead th{font-size:.95rem}.hero-pg .pg tbody th{width:20%}}
+.pg{width:100%;border-collapse:collapse;background:var(--white);border-radius:20px;overflow:hidden;box-shadow:0 0 0 1px var(--line)}
+.pg th,.pg td{padding:22px 24px;text-align:left;vertical-align:top;border:0;border-bottom:1px solid var(--line)}
+.pg tr:last-child td,.pg tr:last-child th{border-bottom:0}
+.pg thead th{font-family:var(--serif);font-size:1.05rem;background:var(--royal-soft)}
+.pg thead th.gain{background:var(--gold-soft)}
+.pg tbody th{font-family:var(--serif);font-weight:700;color:var(--royal)}
+.pg td.gain{background:#FFFCF4}
+.promo-pill{display:inline-flex;align-items:center;gap:10px;margin-top:22px;padding:8px 16px 8px 8px;border-radius:999px;background:rgba(255,255,255,.1);border:1px solid rgba(239,195,92,.6);color:#fff;text-decoration:none;font-size:.95rem}
+.promo-pill span{background:var(--gold);color:var(--text);font-weight:600;border-radius:999px;padding:4px 12px}
+
+/* reviews */
+.reviews .wrap{display:grid;grid-template-columns:1.1fr .9fr;gap:40px;align-items:start}
+.rv-slot{aspect-ratio:4/3;border-radius:18px;border:2px dashed #D4B8EC;background:var(--royal-soft);display:grid;place-items:center;text-align:center;padding:24px;color:var(--muted);font-size:.95rem}
+.rv-slot.sm{aspect-ratio:16/10}
+.rv-slot p{margin-top:8px}
+.vplayer{display:block;width:100%;aspect-ratio:16/9;border-radius:18px;background:#000;object-fit:contain}
+.vcap{margin-top:12px;font-family:var(--serif);font-weight:600;font-size:1.02rem}
+.quote{margin:0;border:1px solid var(--line);border-radius:16px;padding:24px;background:var(--white);box-shadow:0 6px 24px rgba(109,14,177,.07)}
+.quote blockquote{margin:0}
+.quote p{font-size:1.05rem;line-height:1.85}
+.quote p::before{content:"\201C";font-family:var(--serif);font-size:2.4rem;line-height:0;color:var(--gold);vertical-align:-.45em;margin-right:4px}
+.quote .person{display:flex;align-items:center;gap:12px;margin-top:16px}
+.quote .person img{width:56px;height:56px;border-radius:50%;object-fit:cover;flex:none;border:2px solid var(--gold-soft)}
+.quote .person b{display:block;font-family:var(--serif);font-size:1rem;line-height:1.4}
+.quote .person span{display:block;font-size:.88rem;color:var(--muted);line-height:1.5}
+.rv-side{display:grid;gap:14px}
+
+.cust{padding-top:0}
+.strip-wrap{position:relative}
+.strip{display:grid;grid-auto-flow:column;grid-auto-columns:calc((100% - 48px) / 4);gap:16px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;scroll-behavior:smooth;padding:4px 0}
+.strip::-webkit-scrollbar{display:none}
+.strip figure{margin:0;scroll-snap-align:start}
+.strip img{width:100%;aspect-ratio:1/1;height:auto;object-fit:cover;border-radius:14px;background:var(--royal-soft)}
+.strip-nav{position:absolute;top:calc(50% - 26px);z-index:2;width:52px;height:52px;border-radius:50%;border:0;background:#fff;color:var(--ink);display:grid;place-items:center;cursor:pointer;box-shadow:0 6px 20px rgba(59,6,99,.25);transition:opacity .2s,transform .15s}
+.strip-nav svg{width:24px;height:24px}
+.strip-nav:hover{transform:scale(1.06)}
+.strip-nav.prev{left:-22px}
+.strip-nav.next{right:-22px}
+.strip-nav[disabled]{opacity:0;pointer-events:none}
+@media (max-width:1240px){.strip-nav.prev{left:6px}.strip-nav.next{right:6px}}
+@media (max-width:640px){.strip{grid-auto-columns:72%}.strip-nav{width:42px;height:42px}.strip-nav svg{width:20px;height:20px}}
+/* portfolio */
+.work{background:var(--ink);color:#fff}
+.work .lede{color:rgba(255,255,255,.75)}
+.plates{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.plate{border:1px solid rgba(239,195,92,.5);border-radius:6px;padding:30px 26px;position:relative;background:#5B0C95;display:flex;flex-direction:column}
+.plate::after{content:"";position:absolute;inset:6px;border:1px solid rgba(239,195,92,.22);border-radius:3px;pointer-events:none}
+.plate .name{font-family:var(--serif);font-size:1.7rem;font-weight:700;line-height:1.3}
+.plate .kind{color:rgba(255,255,255,.78);font-size:.95rem;margin:8px 0 22px}
+.plate .score{display:flex;align-items:center;gap:22px;margin-top:auto;padding-top:16px;border-top:1px solid rgba(255,255,255,.12)}
+.plate .score b{font-family:var(--serif);font-size:2.2rem;color:var(--gold);line-height:1}
+.plate .ok{list-style:none;margin:0;padding:0;font-size:.93rem;color:rgba(255,255,255,.88);line-height:1.5}
+.plate .ok li{position:relative;padding-left:26px;margin:0 0 4px}
+.plate .ok li::before{content:"";position:absolute;left:0;top:.2em;width:18px;height:18px;border-radius:50%;background:#06C755}
+.plate .ok li::after{content:"";position:absolute;left:6px;top:calc(.2em + 4px);width:5px;height:9px;border:solid #fff;border-width:0 2px 2px 0;transform:rotate(45deg)}
+.more{margin-top:48px}
+.more h3{font-size:1.15rem}
+.more-list{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:10px;margin:18px 0 0;padding:0;list-style:none}
+.more-list li{display:flex;justify-content:space-between;gap:12px;align-items:baseline;border:1px solid rgba(255,255,255,.18);border-radius:12px;padding:12px 16px}
+.more-list b{font-family:var(--serif);font-size:1.08rem}
+.more-list span{display:block;font-size:.85rem;color:rgba(255,255,255,.72);line-height:1.5}
+.more-list i{font-style:normal;font-family:var(--serif);font-weight:700;color:var(--gold);font-size:1.2rem}
+
+/* promo */
+.promo-sec{background:var(--white);padding:56px 0}
+.promo{display:flex;align-items:center;gap:22px;background:linear-gradient(135deg,#FFD23F,#F2B705);color:var(--text);border-radius:22px;padding:26px 30px;box-shadow:0 0 0 2px #D99A00 inset,0 10px 28px rgba(242,183,5,.4)}
+.promo-icon{width:56px;height:56px;flex:none;color:var(--ink)}
+.promo-text{flex:1}
+.promo h3{font-size:1.45rem;color:var(--ink)}
+.promo p{margin-top:4px}
+.promo .btn{flex:none}
+.care{display:grid;grid-template-columns:auto minmax(0,1fr);gap:18px;align-items:start;margin-top:16px;padding:22px 26px;border-radius:18px;background:var(--royal-soft);border:1px solid var(--line)}
+.care-ic{width:52px;height:52px;border-radius:50%;background:var(--white);color:var(--ink);display:grid;place-items:center;box-shadow:0 0 0 1px var(--line)}
+.care-ic svg{width:26px;height:26px}
+.care h3{font-size:1.18rem;line-height:1.45;color:var(--ink)}
+.care .story p{margin-top:10px;line-height:1.85}
+.care .story .pull{font-family:var(--serif);font-weight:600;font-size:1.08rem;color:var(--ink);border-left:3px solid var(--gold);padding-left:14px;margin-top:14px}
+.care > div > p{color:var(--muted);margin-top:14px}
+.care ul{list-style:none;margin:12px 0 0;padding:0;display:flex;flex-wrap:wrap;gap:8px 10px}
+.care li{position:relative;padding:6px 14px 6px 32px;border-radius:999px;background:var(--white);border:1px solid var(--line);font-size:.9rem;line-height:1.45}
+.care li::before{content:"";position:absolute;left:12px;top:50%;width:6px;height:11px;border:solid var(--ink);border-width:0 2px 2px 0;transform:translateY(-62%) rotate(45deg)}
+
+/* about */
+.about .wrap{display:grid;grid-template-columns:1.1fr .9fr;gap:56px;align-items:center}
+.about-photo{width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;border-radius:20px;box-shadow:0 10px 30px rgba(59,6,99,.15)}
+.tl{list-style:none;margin:24px 0 0;padding:0}
+.tl li{position:relative;padding:0 0 16px 32px;line-height:1.5}
+.tl li::before{content:"";position:absolute;left:0;top:.3em;width:14px;height:14px;border-radius:50%;background:var(--gold);box-shadow:0 0 0 3px var(--royal-soft)}
+.tl li:not(:last-child)::after{content:"";position:absolute;left:6px;top:1.4em;bottom:-.1em;width:2px;background:var(--line)}
+.tl b{display:block;font-family:var(--serif);color:var(--ink);font-size:1rem}
+.tl span{display:block;color:var(--muted);font-size:.93rem}
+.about .ctas{display:flex;flex-wrap:wrap;gap:12px;margin-top:24px}
+.creds{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:26px}
+.creds img{aspect-ratio:3/4;object-fit:cover;border-radius:8px;border:1px solid var(--line);background:#fff}
+.company{margin-top:22px;font-size:.92rem;color:var(--muted)}
+
+/* sciences flow */
+.svc{background:var(--white)}
+.sf{display:grid;grid-template-columns:minmax(0,.75fr) 48px minmax(0,2fr) 48px minmax(0,.75fr);align-items:center}
+.sf-end{background:var(--ink);color:#fff;border-radius:20px;padding:26px 18px;text-align:center;box-shadow:0 0 0 2px var(--gold) inset}
+.sf-end b{display:block;font-family:var(--serif);font-size:1.12rem;line-height:1.45}
+.sf-end > span:last-child{display:block;font-size:.88rem;color:rgba(255,255,255,.75);margin-top:6px;line-height:1.5}
+.sf-end .sf-ic{margin:0 auto 12px;background:rgba(255,255,255,.12)}
+.sf-in{background:var(--royal-soft);color:var(--text);box-shadow:0 0 0 1px var(--line) inset}
+.sf-in > span:last-child{color:var(--muted)!important}
+.sf-in .sf-ic{background:var(--ink)}
+.sf-arrow{height:2px;background:var(--gold);position:relative;margin:0 8px}
+.sf-arrow::after{content:"";position:absolute;right:-1px;top:50%;width:10px;height:10px;border-top:2px solid var(--gold);border-right:2px solid var(--gold);transform:translateY(-50%) rotate(45deg)}
+.sf-sci{list-style:none;margin:0;padding:14px 20px;display:grid;gap:12px;border-left:2px solid var(--gold);border-right:2px solid var(--gold);border-radius:20px}
+.sf-sci li{display:grid;grid-template-columns:56px minmax(0,1fr);gap:2px 16px;align-items:center;background:var(--paper);border:1px solid var(--line);border-radius:16px;padding:16px 18px}
+.sf-sci .sf-ic{grid-row:span 2}
+.sf-sci h3{font-size:1.1rem;line-height:1.4}
+.sf-sci h3 small{display:block;font:600 .74rem/1.2 var(--sans);letter-spacing:.04em;color:var(--gold-deep);margin-bottom:2px}
+.sf-sci p{font-size:.92rem;color:var(--muted);line-height:1.6}
+.sf-ic{width:56px;height:56px;border-radius:50%;background:var(--ink);display:grid;place-items:center;color:var(--gold)}
+.sf-ic svg{width:30px;height:30px}
+.criteria{display:grid;grid-template-columns:repeat(4,1fr);gap:0;border-top:2px solid var(--ink);margin-top:48px}
+.criteria div{padding:22px 20px 6px 0}
+.criteria div+div{padding-left:20px;border-left:1px solid var(--line)}
+.criteria h3{font-size:1.08rem;margin-bottom:6px}
+.criteria p{font-size:.94rem;color:var(--muted);line-height:1.7}
+
+/* steps */
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:28px;counter-reset:s;margin:0;padding:0;list-style:none}
+.steps li{counter-increment:s;position:relative;padding-top:64px}
+.steps li::before{content:counter(s);position:absolute;top:0;left:0;width:46px;height:46px;border-radius:50%;background:var(--ink);color:var(--gold);display:grid;place-items:center;font:700 1.2rem var(--serif)}
+.steps li:not(:last-child)::after{content:"";position:absolute;top:23px;left:58px;right:-16px;height:1px;background:var(--line)}
+.steps h3{font-size:1.1rem;margin-bottom:6px}
+.steps p{font-size:.95rem;color:var(--muted)}
+
+/* packages */
+.pricing{background:var(--white)}
+.pkgs{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;align-items:stretch}
+.pkg{border:1px solid var(--line);border-radius:22px;padding:30px 26px;display:flex;flex-direction:column;background:var(--paper)}
+.pkg.rec{background:var(--ink);color:#fff;border-color:var(--ink);transform:translateY(-10px)}
+.pkg .tag{align-self:flex-start;background:var(--gold);color:var(--text);font:600 .82rem/1 var(--sans);padding:7px 12px;border-radius:999px;margin-bottom:14px}
+.pkg h3{font-size:1.45rem}
+.pkg .fit{font-size:.93rem;color:var(--muted);margin-top:4px}
+.pkg.rec .fit{color:rgba(255,255,255,.72)}
+.price{margin:22px 0 4px;display:flex;align-items:baseline;gap:8px}
+.price b{font-family:var(--serif);font-size:2.5rem;line-height:1}
+.vat{font-size:.85rem;color:var(--muted)}
+.pkg.rec .vat{color:rgba(255,255,255,.65)}
+.pkg ul{list-style:none;padding:0;margin:22px 0 28px;flex:1}
+.pkg li{padding:9px 0 9px 28px;border-top:1px solid var(--line);position:relative;font-size:.97rem}
+.pkg.rec li{border-color:rgba(255,255,255,.14)}
+.pkg li::before{content:"";position:absolute;left:4px;top:17px;width:10px;height:6px;border-left:2px solid var(--gold-deep);border-bottom:2px solid var(--gold-deep);transform:rotate(-45deg)}
+.pkg.rec li::before{border-color:var(--gold)}
+.pkg .btn{width:100%}
+.pkg:not(.rec) .btn{background:var(--white);color:var(--text);border-color:var(--ink)}
+.pkg:not(.rec) .btn:hover{background:var(--ink);color:#fff}
+.pkg-note{margin-top:22px;font-size:.92rem;color:var(--muted)}
+
+/* why */
+.why-grid{display:grid;grid-template-columns:repeat(6,1fr);gap:16px}
+.why-card{grid-column:span 2;border-radius:18px;padding:24px 22px;background:var(--ink-2);color:#fff}
+.why-card h3{font-size:1.1rem;line-height:1.45;position:relative;padding-left:20px}
+.why-card h3::before{content:"";position:absolute;left:0;top:.55em;width:9px;height:9px;background:var(--gold);transform:rotate(45deg)}
+.why-card p{color:rgba(255,255,255,.84);font-size:.95rem;margin-top:8px}
+.why-card.main{grid-column:span 3;background:var(--ink);padding:30px 28px}
+.why-card.main h3{font-size:1.35rem}
+.why-card.main p{font-size:1.02rem}
+.why-cta{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px;margin-top:28px;padding-top:24px;border-top:1px solid var(--line)}
+.why-cta p{font-weight:500}
+
+/* faq */
+.faq .wrap{max-width:820px}
+.faq details{border-bottom:1px solid var(--line)}
+.faq summary{list-style:none;cursor:pointer;padding:22px 40px 22px 0;font-family:var(--serif);font-weight:700;font-size:1.1rem;position:relative}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"";position:absolute;right:8px;top:30px;width:11px;height:11px;border-right:2px solid var(--royal);border-bottom:2px solid var(--royal);transform:rotate(45deg);transition:transform .2s}
+.faq details[open] summary::after{transform:rotate(-135deg);top:36px}
+.faq details p{padding:0 0 22px;color:var(--muted)}
+
+/* final */
+.final{background:var(--ink);color:#fff}
+.final .wrap{max-width:860px;text-align:center}
+.final .lede{color:rgba(255,255,255,.78);margin-left:auto;margin-right:auto}
+.final .exp{font-family:var(--serif);font-size:clamp(1.2rem,2vw,1.5rem);font-weight:600;color:rgba(255,255,255,.9);margin-top:18px;line-height:1.5}
+.final .exp b{display:block;font-size:clamp(2.2rem,4.4vw,3.2rem);font-weight:800;color:var(--gold);line-height:1.25}
+.final .ctas{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px;justify-content:center}
+.final-photo{margin:32px auto 8px;position:relative;max-width:820px}
+.final-photo img{width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;border-radius:20px}
+.final-photo::before{content:"";position:absolute;inset:-10px -10px 30px;border:1px solid rgba(239,195,92,.5);border-radius:26px;pointer-events:none}
+.final-photo figcaption{margin-top:20px;font-size:.92rem;color:rgba(255,255,255,.75)}
+
+footer{background:#3B0663;color:rgba(255,255,255,.72);padding:44px 0 110px;font-size:.92rem}
+footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:24px}
+footer b{color:#fff;font-family:var(--serif)}
+footer .disclaim{flex-basis:100%;border-top:1px solid rgba(255,255,255,.1);padding-top:18px;font-size:.84rem;color:rgba(255,255,255,.55)}
+.mbar{display:none}
+
+@media (max-width:980px){
+  .hero .wrap,.reviews .wrap,.about .wrap{grid-template-columns:1fr;gap:40px}
+  .hero .wrap > div:first-child{padding-top:0}
+  .plates,.pkgs{grid-template-columns:1fr}
+  .why-grid{grid-template-columns:1fr}
+  .why-card,.why-card.main{grid-column:auto}
+  .pkg.rec{transform:none;order:-1}
+  .steps,.criteria{grid-template-columns:1fr 1fr}
+  .steps li::after{display:none}
+  .criteria div,.criteria div+div{padding:20px 16px 14px 0;border-left:0;border-bottom:1px solid var(--line)}
+}
+@media (max-width:860px){.sf{grid-template-columns:1fr}.sf-arrow{width:2px;height:30px;margin:8px auto}.sf-arrow::after{right:auto;left:50%;top:auto;bottom:-1px;transform:translateX(-50%) rotate(135deg)}.sf-sci{border:0;padding:0}}
+@media (max-width:640px){
+  body{font-size:16px}
+  section{padding:64px 0}
+  .top-links .tel,.top-links .btn{display:none}
+  .hero{padding:40px 0 56px}
+  .hero .ctas .btn{flex:1 1 100%}
+  .facts{display:grid;grid-template-columns:repeat(3,1fr)}
+  .facts li{padding:0 10px}
+  .facts b{font-size:1.15rem}
+  .facts span{font-size:.8rem}
+  .facts .lead-fact b{font-size:1.4rem}
+  .chart-card{padding:22px 16px}
+  .pg thead{display:none}
+  .pg,.pg tbody,.pg tr,.pg th,.pg td{display:block;width:100%}
+  .pg tbody th{padding:18px 18px 4px;border:0;width:auto}
+  .pg td{padding:10px 18px;border:0}
+  .pg td::before{content:attr(data-h);display:block;font-weight:600;font-size:.82rem;color:var(--muted)}
+  .pg tr{border-bottom:1px solid var(--line);padding-bottom:10px}
+  .steps,.criteria{grid-template-columns:1fr}
+  .why-cta .btn,.about .ctas .btn{width:100%}
+  .promo{flex-direction:column;align-items:flex-start;gap:12px;padding:22px 20px}
+  .promo .btn{width:100%}
+  .care{grid-template-columns:1fr;padding:20px}
+  .care li{width:100%}
+  .creds{gap:6px}
+  .mbar{display:grid;grid-template-columns:minmax(0,2.3fr) minmax(0,1fr);gap:8px;position:fixed;left:0;right:0;bottom:0;padding:10px 12px calc(10px + env(safe-area-inset-bottom));background:rgba(84,10,138,.97);z-index:50}
+  .mbar .btn{padding:14px 10px;font-size:.98rem}
+}
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="https://www.theluckyname.com/"><img src="img/01.png" alt="">TheLuckyName</a>
+    <nav class="top-links" aria-label="ติดต่อ">
+      <a class="tel" href="tel:0993541542" data-track="click_call" data-loc="header">โทร 099-354-1542</a>
+      <a class="btn btn-line" href="https://line.me/R/ti/p/@theluckyname" data-track="click_line" data-loc="header"><i class="ln" aria-hidden="true"></i>สอบถามเรื่องตั้งนามสกุลมงคล</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<!-- 1. HERO + PAIN/GAIN + CHART -->
+<section class="hero" aria-labelledby="h1">
+  <div class="wrap">
+    <div>
+      <h1 id="h1">รับตั้งนามสกุลมงคล<br><span class="nw">เฉพาะตัวคุณ</span><span class="nw">และครอบครัว</span><small>วิเคราะห์และออกแบบทุกนามสกุลโดย อ.ชัญ</small></h1>
+      <p class="sub">นามสกุลที่ได้ ไม่ได้ดูแค่ผลรวมเลข แต่ดูคู่กับชื่อจริงและพื้นดวงของผู้ใช้ ไพเราะ มีความหมายดี ไม่ซ้ำใคร พร้อมฤกษ์เริ่มใช้นามสกุลใหม่</p>
+      <div class="hero-pg">
+        <h2>คุณกำลังเจอกับปัญหาเหล่านี้ไหม?</h2>
+        <p class="lede">นามสกุลคือชื่อที่ส่งต่อถึงลูกหลาน การเลือกนามสกุลที่ใช่ตั้งแต่แรก จึงคุ้มค่ากว่าการมาเปลี่ยนใหม่ภายหลัง</p>
+        <table class="pg">
+          <thead><tr><th scope="col"></th><th scope="col">ปัญหาที่เจอ</th><th scope="col" class="gain">สิ่งที่จะได้</th></tr></thead>
+          <tbody>
+            <tr><th scope="row">การเลือกนามสกุล</th>
+              <td data-h="ปัญหาที่เจอ">คิดนามสกุลเองหลายรอบ แต่ยังไม่ได้ชื่อที่ไพเราะ มีความหมายดี และมีเอกลักษณ์ของตระกูล</td>
+              <td class="gain" data-h="สิ่งที่จะได้">นามสกุลมงคลที่สะท้อนตัวตนและเกียรติของวงศ์ตระกูล</td></tr>
+            <tr><th scope="row">ความมั่นใจ</th>
+              <td data-h="ปัญหาที่เจอ">กังวลว่านามสกุลจะไม่ถูกโฉลก หรือมีอักษรกาลกิณีกับดวงของตัวเอง</td>
+              <td class="gain" data-h="สิ่งที่จะได้">นามสกุลที่ผ่านการวิเคราะห์ด้วยโหราศาสตร์และเลขศาสตร์ ให้เหมาะกับผู้ใช้</td></tr>
+            <tr><th scope="row">ความเป็นมงคล</th>
+              <td data-h="ปัญหาที่เจอ">ไม่แน่ใจว่านามสกุลที่ใช้อยู่ เป็นมงคลกับตัวเองและครอบครัวหรือไม่</td>
+              <td class="gain" data-h="สิ่งที่จะได้">นามสกุลที่ออกแบบตามหลักมงคล สื่อถึงความมั่งคั่งและความมั่นคงของครอบครัว</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <a class="promo-pill" href="#promo" data-track="click_promo" data-loc="hero"><span>เฉพาะ 10 ออเดอร์แรก</span> รับของแถมสุดพิเศษ</a>
+      <div class="ctas">
+        <a class="btn btn-line" href="https://line.me/R/ti/p/@theluckyname" data-track="click_line" data-loc="hero"><i class="ln" aria-hidden="true"></i>สอบถามเรื่องตั้งนามสกุลมงคล</a>
+        <a class="btn btn-ghost" href="tel:0993541542" data-track="click_call" data-loc="hero">โทร 099-354-1542</a>
+      </div>
+      <ul class="facts">
+        <li class="lead-fact"><b>10,000+ เคส</b><span>ไว้วางใจ อ.ชัญ ในการตั้งชื่อ</span></li>
+        <li><b>15 ปี</b><span>ประสบการณ์ตั้งชื่อ</span></li>
+        <li><b>1,999.-</b><span>ราคาเริ่มต้น (+VAT)</span></li>
+      </ul>
+    </div>
+
+    <div class="chart-card" id="tool">
+      <h3>ผูกดวงตามหลักโหราศาสตร์ไทย</h3>
+      <p class="hint">วิเคราะห์พื้นดวงของผู้ใช้นามสกุล ประกอบการเลือกอักษรในนามสกุล</p>
+      <div class="people" role="group" aria-label="เลือกดูดวงตัวอย่าง">
+        <button type="button" data-i="0" aria-pressed="true">เจ้าของนามสกุล</button>
+        <button type="button" data-i="1" aria-pressed="false">คู่สมรส</button>
+        <button type="button" data-i="2" aria-pressed="false">บุตร</button>
+      </div>
+      <div class="chart-wrap"><svg id="chart" viewBox="0 0 440 440" role="img" aria-label="ดวงราศีจักรตัวอย่าง"></svg></div>
+      <p class="legend"><span><b>ล</b> ลัคนา</span><span><b>๑</b> อาทิตย์</span><span><b>๒</b> จันทร์</span><span><b>๓</b> อังคาร</span><span><b>๔</b> พุธ</span><span><b>๕</b> พฤหัสบดี</span><span><b>๖</b> ศุกร์</span><span><b>๗</b> เสาร์</span><span><b>๘</b> ราหู</span><span><b>๐</b> มฤตยู</span><span><b class="glow">๕</b> ดาวตำแหน่งเด่น</span></p>
+      <div id="chart-out" aria-live="polite"></div>
+      <a class="btn btn-line chart-cta" id="c-send" href="https://line.me/R/ti/p/@theluckyname" data-track="chart_send_line" data-loc="hero-chart">ปรึกษาตั้งนามสกุล กับ อ.ชัญ</a>
+      <p class="chart-note">ดวงในภาพเป็นตัวอย่าง (ข้อมูลสมมติ) นามสกุลจริงต้องวิเคราะห์ครบ 3 ศาสตร์ร่วมกับชื่อจริงและดวงของผู้ใช้นามสกุล</p>
+    </div>
+  </div>
+</section>
+
+<!-- 2. REVIEWS -->
+<section class="reviews" aria-labelledby="rv-h">
+  <div class="wrap">
+    <div>
+      <h2 id="rv-h" style="margin-bottom:22px">ฟังจากลูกค้าที่ใช้บริการจริง</h2>
+      <video class="vplayer" id="video" controls playsinline preload="metadata" poster="img/review-poster.jpg" aria-label="วิดีโอรีวิวจากคุณฝน ลูกค้าที่ใช้บริการจริง">
+        <source src="video/review-surname.mp4" type="video/mp4">
+      </video>
+      <p class="vcap">รีวิวจากคุณฝน ลูกค้าที่ใช้บริการกับ อ.ชัญ</p>
+    </div>
+    <div class="rv-side">
+      <figure class="quote real">
+        <blockquote><p>ส่วนตัวไปเปลี่ยนนามสกุลและจดทะเบียนตามอาจารย์มาแล้ว การงานดีขึ้นเลยค่ะ ได้โยกย้ายไปที่ดีขึ้น หลังจากเปลี่ยนนามสกุล 4 วันค่ะ</p></blockquote>
+        <figcaption class="person">
+          <img loading="lazy" src="img/rv-kanoklak.jpg" alt="คุณกนกลักษณ์">
+          <div><b>คุณกนกลักษณ์</b><span>ลูกค้าบริการตั้งนามสกุลมงคล</span></div>
+        </figcaption>
+      </figure>
+      <figure class="quote real">
+        <blockquote><p>เคยให้อาจารย์ตั้งนามสกุลของน้องมา 2-3 คนแล้ว ชีวิตเปลี่ยนไปมากเลยครับ เฮงๆ ปังๆ และนามสกุลเพราะมากครับอาจารย์</p></blockquote>
+        <figcaption class="person">
+          <img loading="lazy" src="img/rv-man.jpg" alt="คุณแมน">
+          <div><b>คุณแมน</b><span>ลูกค้าบริการตั้งนามสกุลมงคล</span></div>
+        </figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- 2b. CUSTOMER PHOTOS -->
+<section class="cust" aria-labelledby="cu-h">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2 id="cu-h">ผลงานลูกค้าบางส่วน ที่ไว้วางใจให้ อ.ชัญ ออกแบบนามสกุลมงคล</h2>
+      <p class="lede">ภาพจริงจากลูกค้า ที่นำนามสกุลจาก อ.ชัญ ไปยื่นจดทะเบียนเรียบร้อย</p>
+    </div>
+    <div class="strip-wrap">
+      <button type="button" class="strip-nav prev" aria-label="ดูภาพก่อนหน้า" data-dir="-1"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+      <button type="button" class="strip-nav next" aria-label="ดูภาพถัดไป" data-dir="1"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+      <div class="strip" id="strip" tabindex="0" aria-label="ภาพลูกค้าที่จดทะเบียนนามสกุลใหม่ เลื่อนดูได้">
+        <figure><img loading="lazy" src="img/sn1.jpg" width="720" height="720" alt="ลูกค้าถือหนังสือสำคัญแสดงการจดทะเบียนชื่อสกุลใหม่ที่ อ.ชัญ ออกแบบ"></figure>
+        <figure><img loading="lazy" src="img/sn2.jpg" width="720" height="720" alt="ลูกค้าถือหนังสือสำคัญแสดงการจดทะเบียนชื่อสกุลใหม่ที่ อ.ชัญ ออกแบบ"></figure>
+        <figure><img loading="lazy" src="img/sn3.jpg" width="720" height="720" alt="ลูกค้าถือหนังสือสำคัญแสดงการจดทะเบียนชื่อสกุลใหม่ที่ อ.ชัญ ออกแบบ"></figure>
+        <figure><img loading="lazy" src="img/sn4.jpg" width="720" height="720" alt="ลูกค้าถือหนังสือสำคัญแสดงการจดทะเบียนชื่อสกุลใหม่ที่ อ.ชัญ ออกแบบ"></figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 3. PORTFOLIO -->
+<section class="work" aria-labelledby="work-h">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2 id="work-h">นามสกุลที่ อ.ชัญ ออกแบบ</h2>
+      <p class="lede">ตัวอย่างนามสกุลพร้อมความหมายและผลรวมเลขศาสตร์ ทุกนามสกุลผ่านการวิเคราะห์ครบ 3 ศาสตร์</p>
+    </div>
+    <div class="plates">
+      <article class="plate"><div class="name">ทรัพยภักดิ์โภคิน</div><div class="kind">ผู้มั่งคั่งด้วยทรัพย์สิน ความมั่นคง</div><div class="score"><b>63</b><ul class="ok"><li>เลขศาสตร์</li><li>นวนามศาสตร์</li><li>โหราศาสตร์ไทย</li></ul></div></article>
+      <article class="plate"><div class="name">ธราสกุลวาณิชย์</div><div class="kind">ตระกูลที่มีรากฐานมั่นคงรุ่งเรือง</div><div class="score"><b>59</b><ul class="ok"><li>เลขศาสตร์</li><li>นวนามศาสตร์</li><li>โหราศาสตร์ไทย</li></ul></div></article>
+      <article class="plate"><div class="name">กีรติพัฒนสกุล</div><div class="kind">ตระกูลผู้มีความเจริญก้าวหน้าด้วยชื่อเสียงอย่างดีเยี่ยม</div><div class="score"><b>54</b><ul class="ok"><li>เลขศาสตร์</li><li>นวนามศาสตร์</li><li>โหราศาสตร์ไทย</li></ul></div></article>
+    </div>
+    <div class="more">
+      <h3>ตัวอย่างนามสกุลเพิ่มเติม</h3>
+      <ul class="more-list">
+        <li><div><b>กวินบุญญากุล</b><span>ตระกูลที่เปี่ยมด้วยคุณงามความดี</span></div><i>36</i></li>
+        <li><div><b>ก้องวณิชกุล</b><span>ตระกูลพ่อค้าที่มีชื่อเสียง</span></div><i>36</i></li>
+        <li><div><b>ก้องวัฒนะกุล</b><span>สายสกุลที่มีชื่อเสียงและเจริญรุ่งเรือง</span></div><i>41</i></li>
+        <li><div><b>กิจธนะวรกุล</b><span>สายสกุลผู้สร้างกิจการที่รุ่งเรือง</span></div><i>42</i></li>
+        <li><div><b>กิจธาดาวงศ์</b><span>สายสกุลที่มีกิจการเจริญรุ่งเรือง</span></div><i>42</i></li>
+        <li><div><b>กิตติ์รชาทรัพย์</b><span>ผู้มีทรัพย์สินเงินทอง มีเกียรติ ชื่อเสียง</span></div><i>65</i></li>
+        <li><div><b>กิตติวริศสกุล</b><span>สายสกุลที่มีชื่อเสียง ความเจริญดั่งพรอันประเสริฐ</span></div><i>51</i></li>
+        <li><div><b>กีรติเมธานนท์</b><span>นักปราชญ์ผู้มีเกียรติและอำนาจ</span></div><i>51</i></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- 4. PROMO + CARE -->
+<section class="promo-sec" aria-label="โปรโมชั่น 10 ออเดอร์แรก">
+  <div class="wrap">
+    <div class="promo" id="promo">
+      <svg class="promo-icon" viewBox="0 0 48 48" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round"><rect x="7" y="19" width="34" height="23" rx="2"/><rect x="4" y="12" width="40" height="8" rx="2"/><path d="M24 12v30"/><path d="M24 12c-3-6-12-7-12-1 0 3 6 2 12 1zM24 12c3-6 12-7 12-1 0 3-6 2-12 1z"/></g></svg>
+      <div class="promo-text">
+        <h3>เฉพาะ 10 ออเดอร์แรกเท่านั้น</h3>
+        <p>รับของแถมสุดพิเศษ <b>เช็คนามสกุลเดิมว่ามงคลหรือไม่ ฟรี 1 นามสกุล</b> ทักไลน์เพื่อจองสิทธิ์ได้เลย</p>
+      </div>
+      <a class="btn btn-line" id="promo-cta" href="https://line.me/R/ti/p/@theluckyname" data-track="click_promo" data-loc="promo">จองสิทธิ์ทางไลน์</a>
+    </div>
+    <div class="care">
+      <span class="care-ic"><svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M16 27s-10-6.2-10-13.2A5.6 5.6 0 0 1 16 10.4a5.6 5.6 0 0 1 10 3.4C26 20.8 16 27 16 27z"/></svg></span>
+      <div>
+        <h3>ใส่ใจทุกรายละเอียด เพราะนามสกุลนี้จะส่งต่อถึงลูกหลาน</h3>
+        <div class="story">
+          <p>ทุกอย่างเริ่มต้นเมื่อ อ.ชัญ อายุเพียง 13 ปี จากหนังสือ “พรหมชาติ” ที่วางอยู่ในตู้หนังสือของคุณป้า หน้ากระดาษเหล่านั้นจุดประกายความสงสัยว่า ทำไมดวงดาวบนฟ้าจึงเชื่อมโยงกับชีวิตของผู้คนได้</p>
+          <p>ความหลงใหลในวันนั้นค่อย ๆ เติบโตเป็นการศึกษาอย่างจริงจัง ทั้งเลขศาสตร์ โหราศาสตร์ไทย และการวางฤกษ์</p>
+          <p class="pull">ทุกนามสกุลที่ออกแบบ จึงไม่ใช่แค่งาน แต่คือจุดเริ่มต้นของวงศ์ตระกูลที่เราอยากเห็นเติบโต</p>
+        </div>
+        <p>เราเริ่มจากการรับฟังเรื่องราวและความตั้งใจของครอบครัวคุณ แล้วจึงออกแบบนามสกุลให้เข้ากับชื่อจริงและดวงของผู้ใช้ ค่อย ๆ ปรับไปด้วยกันจนคุณมั่นใจ</p>
+        <ul>
+          <li>กำหนดความหมายหรือคำที่อยากได้ก่อนเริ่มงาน</li>
+          <li>ใส่ใจทุกตัวอักษร ทั้งความหมาย การอ่าน และความไพเราะ</li>
+          <li>ตรวจความซ้ำก่อนส่งมอบทุกนามสกุล</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 5. ABOUT -->
+<section class="about" aria-labelledby="ab-h">
+  <div class="wrap">
+    <img class="about-photo" loading="lazy" src="img/about-surname.jpg" width="1920" height="1080" alt="อ.ชัญ theluckyname กับลูกค้าที่ได้รับหนังสือสำคัญแสดงการจดทะเบียนชื่อสกุลใหม่">
+    <div>
+      <h2 id="ab-h">ทุกนามสกุลวิเคราะห์และออกแบบโดย <span class="nw">อ.ชัญ theluckyname</span></h2>
+      <ol class="tl" aria-label="เส้นทางของ อ.ชัญ">
+        <li><b>อายุ 13 ปี</b><span>พบหนังสือพรหมชาติในตู้หนังสือของคุณป้า และเริ่มหลงใหลในโหราศาสตร์ไทย</span></li>
+        <li><b>ศึกษาอย่างจริงจัง</b><span>เลขศาสตร์ โหราศาสตร์ไทย นวนามศาสตร์ และการวางฤกษ์</span></li>
+        <li><b>กว่า 15 ปี</b><span>ทำงานด้านการตั้งชื่อมงคลอย่างต่อเนื่อง</span></li>
+        <li><b>วันนี้</b><span>ลูกค้ามากกว่า 10,000 เคส ทั้งชื่อ นามสกุล และชื่อธุรกิจ</span></li>
+      </ol>
+      <div class="ctas">
+        <a class="btn btn-line" href="https://line.me/R/ti/p/@theluckyname" data-track="click_line" data-loc="about"><i class="ln" aria-hidden="true"></i>สอบถามเรื่องตั้งนามสกุลมงคล</a>
+        <a class="btn btn-outline" href="tel:0993541542" data-track="click_call" data-loc="about">โทร 099-354-1542</a>
+      </div>
+      <div class="creds" aria-label="เกียรติบัตรของ อ.ชัญ">
+        <img loading="lazy" src="img/09.jpg" alt="เกียรติบัตร อ.ชัญ">
+        <img loading="lazy" src="img/10.jpg" alt="เกียรติบัตร อ.ชัญ">
+        <img loading="lazy" src="img/11.jpg" alt="เกียรติบัตร อ.ชัญ">
+        <img loading="lazy" src="img/12.jpg" alt="เกียรติบัตร อ.ชัญ">
+      </div>
+      <p class="company">ดำเนินการโดย บริษัท เมก้า ลักกี้ จำกัด · 208/43 ม.1 ต.มะขามเตี้ย อ.เมือง จ.สุราษฎร์ธานี 84000</p>
+    </div>
+  </div>
+</section>
+
+<!-- 6. 3 SCIENCES + 4 CRITERIA -->
+<section class="svc" aria-labelledby="sci-h">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2 id="sci-h">ทุกนามสกุลผ่านการวิเคราะห์ 3 ศาสตร์</h2>
+      <p class="lede">นวนามศาสตร์ เลขศาสตร์ และโหราศาสตร์ไทย ใช้ร่วมกับชื่อจริงและวันเดือนปีเกิดของผู้ใช้นามสกุล ไม่ได้ตัดสินจากผลรวมเลขศาสตร์เพียงอย่างเดียว</p>
+    </div>
+    <div class="sf" role="img" aria-label="ขั้นตอนวิเคราะห์: ชื่อจริงและวันเกิดของผู้ใช้ ผ่าน 3 ศาสตร์ ได้นามสกุลมงคล">
+      <div class="sf-end sf-in"><span class="sf-ic"><svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="7" width="22" height="20" rx="3"/><path d="M5 13h22M11 4v6M21 4v6"/><circle cx="16" cy="20" r="3"/></svg></span><b>ชื่อจริงและวันเกิด</b><span>ของผู้ใช้นามสกุลทุกท่าน</span></div>
+      <div class="sf-arrow" aria-hidden="true"></div>
+      <ol class="sf-sci">
+        <li><span class="sf-ic"><svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="6" y="6" width="20" height="20" rx="2"/><path d="M12.7 6v20M19.3 6v20M6 12.7h20M6 19.3h20"/><rect x="12.7" y="12.7" width="6.6" height="6.6" fill="currentColor" stroke="none"/></svg></span><h3><small>ศาสตร์ที่ 1</small>นวนามศาสตร์</h3><p>วิเคราะห์ดวงนวางค์จักรคู่กับราศีจักร เลือกอักษรที่ส่งเสริมดวงได้แม่นยำขึ้น</p></li>
+        <li><span class="sf-ic"><svg viewBox="0 0 32 32" aria-hidden="true"><text x="16" y="21" text-anchor="middle" font-size="12.5" font-weight="700" fill="currentColor" style="font-family:inherit">๑๒๓</text></svg></span><h3><small>ศาสตร์ที่ 2</small>เลขศาสตร์</h3><p>ถอดอักษรเป็นตัวเลข เลือกผลรวมที่ส่งเสริมความมั่งคั่งและความมั่นคงของครอบครัว</p></li>
+        <li><span class="sf-ic"><svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="16" cy="16" r="12"/><circle cx="16" cy="16" r="5"/><path d="M21 16h7M20.3 18.5l6.1 3.5M18.5 20.3l3.5 6.1M16 21v7M13.5 20.3L10 26.4M11.7 18.5l-6.1 3.5M11 16H4M11.7 13.5L5.6 10M13.5 11.7L10 5.6M16 11V4M18.5 11.7L22 5.6M20.3 13.5l6.1-3.5"/></svg></span><h3><small>ศาสตร์ที่ 3</small>โหราศาสตร์ไทย</h3><p>คำนวณลัคนาและตำแหน่งดาวจากวันเวลาเกิด หาอักษรที่ดวงต้องการเสริมและอักษรที่ควรเลี่ยง</p></li>
+      </ol>
+      <div class="sf-arrow" aria-hidden="true"></div>
+      <div class="sf-end"><span class="sf-ic"><svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 5l3.2 6.6 7.2 1-5.2 5.1 1.2 7.2L16 21.5 9.6 24.9l1.2-7.2L5.6 12.6l7.2-1z"/></svg></span><b>นามสกุลมงคล</b><span>เข้ากับชื่อจริงและดวงผู้ใช้</span></div>
+    </div>
+    <div class="criteria">
+      <div><h3>วิเคราะห์เฉพาะบุคคล</h3><p>เริ่มจากข้อมูลเฉพาะของเจ้าของนามสกุล ไม่ใช้นามสกุลสำเร็จรูป</p></div>
+      <div><h3>เข้ากับชื่อจริง</h3><p>พิจารณานามสกุลคู่กับชื่อจริง ให้ทั้งชื่อเต็มอ่านลื่นและเป็นมงคล</p></div>
+      <div><h3>ความหมายและความไพเราะ</h3><p>คัดคำจากความหมาย ความไพเราะ การอ่าน และภาพลักษณ์ของตระกูล</p></div>
+      <div><h3>ตรวจหลักเกณฑ์และความซ้ำ</h3><p>ตรวจตามหลักเกณฑ์และความซ้ำก่อนส่งมอบ</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- 7. PROCESS -->
+<section class="svc" style="padding-top:0" aria-labelledby="st-h">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2 id="st-h">4 ขั้นตอน รับนามสกุลมงคล</h2>
+      <p class="lede">ทักไลน์ได้ทุกวัน อ.ชัญ ดูแลทุกเคสด้วยตัวเอง <span class="todo">ใส่ระยะเวลาส่งงาน</span></p>
+    </div>
+    <ol class="steps">
+      <li><h3>ทักไลน์ @theluckyname</h3><p>แจ้งว่าตั้งนามสกุลให้ใคร จำนวนผู้ใช้ และแพ็กเกจที่สนใจ</p></li>
+      <li><h3>ส่งข้อมูล</h3><p>ชื่อจริง วันเดือนปีและเวลาเกิดของผู้ใช้นามสกุล และความหมายที่อยากได้ (ถ้ามี)</p></li>
+      <li><h3>ชำระค่าบริการ</h3><p>อ.ชัญ เริ่มวิเคราะห์ทันทีที่ได้รับข้อมูลครบ</p></li>
+      <li><h3>รับนามสกุลมงคล</h3><p>พร้อมความหมาย ผลวิเคราะห์ และฤกษ์เริ่มใช้ นำไปยื่นจดทะเบียนได้</p></li>
+    </ol>
+  </div>
+</section>
+
+<!-- 8. PACKAGES -->
+<section class="pricing" id="packages" style="padding-top:0" aria-labelledby="pk-h">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2 id="pk-h">เลือกแพ็กเกจตามจำนวนผู้ใช้นามสกุล</h2>
+      <p class="lede">ราคาชัดเจน ไม่มีค่าใช้จ่ายแอบแฝง</p>
+    </div>
+    <div class="pkgs">
+      <article class="pkg">
+        <h3>Essential</h3>
+        <p class="fit">สำหรับผู้ตั้งนามสกุลใหม่ให้ตนเอง</p>
+        <div class="price"><b>1,999</b><span>บาท</span></div>
+        <div class="vat">+VAT 7% รวม 2,139 บาท</div>
+        <ul><li>นามสกุลมงคล 2 นามสกุลให้เลือก</li><li>วิเคราะห์ครบ 3 ศาสตร์</li><li>วิเคราะห์ร่วมกับชื่อจริง 1 ท่าน</li><li>ตรวจสอบความซ้ำ</li><li>ฤกษ์เริ่มใช้นามสกุล 1 ฤกษ์</li></ul>
+        <a class="btn" data-pkg="Essential" href="#" data-track="click_package">เลือกแพ็กเกจ Essential</a>
+      </article>
+      <article class="pkg rec">
+        <span class="tag">แนะนำ</span>
+        <h3>Signature</h3>
+        <p class="fit">สำหรับตนเอง หรือคู่สมรส/ครอบครัว 1–2 ท่าน</p>
+        <div class="price"><b>2,999</b><span>บาท</span></div>
+        <div class="vat">+VAT 7% รวม 3,209 บาท</div>
+        <ul><li>นามสกุลมงคล 3 นามสกุลให้เลือก</li><li>วิเคราะห์ครบ 3 ศาสตร์</li><li>วิเคราะห์ร่วมกับผู้ใช้ 1–2 ท่าน</li><li>ตรวจสอบความซ้ำ</li><li>ฤกษ์เริ่มใช้นามสกุล 3 ฤกษ์</li></ul>
+        <a class="btn btn-line" data-pkg="Signature" href="#" data-track="click_package">เลือกแพ็กเกจ Signature</a>
+      </article>
+      <article class="pkg">
+        <h3>Premium</h3>
+        <p class="fit">สำหรับครอบครัวที่มีผู้ใช้หลายท่าน</p>
+        <div class="price"><b>3,999</b><span>บาท</span></div>
+        <div class="vat">+VAT 7% รวม 4,279 บาท</div>
+        <ul><li>นามสกุลมงคล 6 นามสกุลให้เลือก</li><li>วิเคราะห์ครบ 3 ศาสตร์</li><li>วิเคราะห์ร่วมกับผู้ใช้หลายท่าน</li><li>ตรวจสอบความซ้ำ</li><li>ฤกษ์เริ่มใช้นามสกุล 3 ฤกษ์</li><li>กำหนดเงื่อนไขเฉพาะ หรือเลือกเรื่องเสริมดวงได้</li></ul>
+        <a class="btn" data-pkg="Premium" href="#" data-track="click_package">เลือกแพ็กเกจ Premium</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- 9. WHY US -->
+<section class="whyus" aria-labelledby="wy-h">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2 id="wy-h">ทำไมต้องเลือก TheLuckyName</h2>
+      <p class="lede">นามสกุลอยู่กับคุณและส่งต่อถึงลูกหลาน จึงควรให้คนที่ดูดวงและชื่อของคุณจริง ๆ เป็นคนออกแบบ</p>
+    </div>
+    <div class="why-grid">
+      <article class="why-card main"><h3>ความเชี่ยวชาญและประสบการณ์</h3><p>อ.ชัญ ทำงานด้านการตั้งชื่อมงคลมากว่า 15 ปี ดูแลลูกค้ามาแล้วมากกว่า 10,000 เคส ทั้งชื่อตัว นามสกุล และชื่อธุรกิจ</p></article>
+      <article class="why-card main"><h3>ออกแบบคู่กับชื่อจริงและพื้นดวงทุกเคส</h3><p>ผูกดวงจากวันเดือนปีและเวลาเกิดจริง แล้วพิจารณาคู่กับชื่อจริง ให้ชื่อเต็มทั้งชื่อและนามสกุลส่งเสริมกัน ไม่ใช้นามสกุลสำเร็จรูป</p></article>
+      <article class="why-card"><h3>วิเคราะห์ครบ 3 ศาสตร์</h3><p>นวนามศาสตร์ เลขศาสตร์ และโหราศาสตร์ไทย ไม่ได้ดูแค่ผลรวมเลข</p></article>
+      <article class="why-card"><h3>ถูกหลักภาษา ไพเราะ มีความหมาย</h3><p>คัดคำให้อ่านง่าย ความหมายดี และสะท้อนเกียรติของวงศ์ตระกูล</p></article>
+      <article class="why-card"><h3>พร้อมฤกษ์เริ่มใช้</h3><p>ตรวจความซ้ำก่อนส่งมอบ และได้ฤกษ์มงคลสำหรับเริ่มใช้นามสกุลใหม่</p></article>
+    </div>
+    <div class="why-cta">
+      <p>ราคาชัดเจน เริ่มต้น 1,999 บาท (+VAT)</p>
+      <a class="btn btn-line" href="https://line.me/R/ti/p/@theluckyname" data-track="click_line" data-loc="whyus"><i class="ln" aria-hidden="true"></i>สอบถามเรื่องตั้งนามสกุลมงคล</a>
+    </div>
+  </div>
+</section>
+
+<!-- 10. FAQ -->
+<section class="faq" aria-labelledby="fq-h" style="background:var(--white)">
+  <div class="wrap">
+    <div class="sec-head"><h2 id="fq-h">คำถามที่พบบ่อย</h2></div>
+    <details><summary>ต้องเตรียมข้อมูลอะไรบ้าง?</summary><p>ชื่อจริง วันเดือนปีและเวลาเกิดของผู้ที่จะใช้นามสกุลทุกท่าน หากต้องการนามสกุลที่มีเงื่อนไขพิเศษ แจ้งมาได้เลยค่ะ</p></details>
+    <details><summary>ตั้งนามสกุลให้ทั้งครอบครัวได้ไหม ควรเลือกแพ็กเกจไหน?</summary><p>ได้ค่ะ ถ้าใช้คนเดียวแนะนำแพ็กเกจ Essential ถ้าใช้ร่วมกับคู่สมรสหรือครอบครัว 1–2 ท่าน แนะนำ Signature และถ้ามีผู้ใช้หลายท่านหรืออยากกำหนดเงื่อนไขเฉพาะ แนะนำ Premium</p></details>
+    <details><summary>นามสกุลที่ได้ ซ้ำกับคนอื่นไหม?</summary><p>ทุกนามสกุลตรวจตามหลักเกณฑ์และความซ้ำก่อนส่งมอบ</p></details>
+    <details><summary>ได้นามสกุลแล้ว ต้องทำอะไรต่อ?</summary><p>นำนามสกุลไปยื่นขอจดทะเบียนตั้งชื่อสกุลใหม่ที่สำนักทะเบียนอำเภอหรือเขตตามทะเบียนบ้าน และเริ่มใช้ตามฤกษ์ที่ อ.ชัญ ให้ไว้</p></details>
+    <details><summary>ถ้าไม่ถูกใจนามสกุลที่ได้ ทำอย่างไร?</summary><p>ก่อนเริ่มออกแบบ คุณลูกค้ากำหนดเงื่อนไขหรือความหมายที่อยากได้มาก่อนได้ และแพ็กเกจ Signature กับ Premium มีนามสกุลให้เลือกมากขึ้นค่ะ</p></details>
+    <details><summary>อยากเปลี่ยนชื่อตัวด้วย ทำได้ไหม?</summary><p>ได้ค่ะ <a href="https://line.me/R/ti/p/@theluckyname" data-track="click_line" data-loc="faq">ทักไลน์ปรึกษา อ.ชัญ</a> เพื่อออกแบบชื่อและนามสกุลให้ส่งเสริมกัน</p></details>
+    <details><summary>ต่างจากการคิดนามสกุลเองด้วยเลขศาสตร์อย่างไร?</summary><p>เลขศาสตร์ดูแค่ผลรวมของตัวอักษร แต่ อ.ชัญ วิเคราะห์ครบ 3 ศาสตร์ร่วมกับชื่อจริงและดวงของผู้ใช้ รวมถึงความหมาย ความไพเราะ และความซ้ำ</p></details>
+  </div>
+</section>
+
+<!-- 11. FINAL CTA -->
+<section class="final" id="contact" aria-labelledby="fn-h">
+  <div class="wrap">
+    <h2 id="fn-h">ให้นามสกุลใหม่ เป็นจุดเริ่มต้นที่ดีของวงศ์ตระกูล</h2>
+    <p class="exp">ไว้วางใจ อ.ชัญ ในการตั้งชื่อมาแล้ว<b>10,000+ เคส</b></p>
+    <p class="lede">ทักไลน์หรือโทรปรึกษา อ.ชัญ ได้ ก่อนตัดสินใจเลือกแพ็กเกจ</p>
+    <div class="ctas">
+      <a class="btn btn-line" href="https://line.me/R/ti/p/@theluckyname" data-track="click_line" data-loc="final"><i class="ln" aria-hidden="true"></i>สอบถามเรื่องตั้งนามสกุลมงคล</a>
+      <a class="btn btn-ghost" href="tel:0993541542" data-track="click_call" data-loc="final">โทร 099-354-1542</a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div><b>TheLuckyName</b><br>บริษัท เมก้า ลักกี้ จำกัด<br>208/43 ม.1 ต.มะขามเตี้ย ถ.วัดโพธิ์-บางใหญ่ อ.เมือง จ.สุราษฎร์ธานี 84000</div>
+    <div>LINE @theluckyname<br>โทร 099-354-1542<br><a href="https://www.theluckyname.com/">www.theluckyname.com</a></div>
+    <p class="disclaim">การตั้งนามสกุลมงคลเป็นศาสตร์ตามความเชื่อ ใช้เพื่อเสริมความมั่นใจ ไม่ใช่การรับประกันผลใด ๆ การจดทะเบียนนามสกุลขึ้นอยู่กับการพิจารณาของนายทะเบียน</p>
+  </div>
+</footer>
+
+<div class="mbar" aria-label="ติดต่อด่วน">
+  <a class="btn btn-line" href="https://line.me/R/ti/p/@theluckyname" data-track="click_line" data-loc="sticky"><i class="ln" aria-hidden="true"></i>สอบถามเรื่องตั้งนามสกุล</a>
+  <a class="btn btn-ghost" href="tel:0993541542" data-track="click_call" data-loc="sticky">โทรเลย</a>
+</div>
+
+<script async id="astro-lib" src="https://cdn.jsdelivr.net/npm/astronomy-engine@2.1.19/astronomy.browser.min.js"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function track(event, params){
+  params = params || {};
+  window.dataLayer.push(Object.assign({event: event, service: 'surname'}, params));
+  if (typeof window.gtag === 'function') window.gtag('event', event, params);
+}
+document.addEventListener('click', function(e){
+  var el = e.target.closest('[data-track]');
+  if (el) track(el.dataset.track, {location: el.dataset.loc || '', package: el.dataset.pkg || ''});
+});
+var marks = {50:false, 90:false};
+window.addEventListener('scroll', function(){
+  var h = document.documentElement, pct = (h.scrollTop + innerHeight) / h.scrollHeight * 100;
+  [50,90].forEach(function(m){ if(!marks[m] && pct >= m){ marks[m] = true; track('scroll_depth', {percent: m}); } });
+}, {passive:true});
+(function(v){ if (!v) return; var sent = false; v.addEventListener('play', function(){ if (!sent) { sent = true; track('video_play', {location: 'reviews'}); } }); })(document.getElementById('video'));
+(function(s){ if (!s) return;
+  var btns = document.querySelectorAll('.strip-nav');
+  function upd(){ var max = s.scrollWidth - s.clientWidth - 4; btns[0].disabled = s.scrollLeft <= 4; btns[1].disabled = s.scrollLeft >= max; }
+  btns.forEach(function(b){ b.addEventListener('click', function(){ s.scrollBy({left: +b.dataset.dir * s.clientWidth * .9, behavior: 'smooth'}); }); });
+  s.addEventListener('scroll', upd, {passive: true}); addEventListener('resize', upd); upd();
+})(document.getElementById('strip'));
+document.querySelectorAll('.faq details').forEach(function(d){
+  d.addEventListener('toggle', function(){ if (d.open) track('faq_open', {question: d.querySelector('summary').textContent}); });
+});
+
+
+function lineMsg(text){ return 'https://line.me/R/oaMessage/@theluckyname/?' + encodeURIComponent(text); }
+document.querySelectorAll('[data-pkg]').forEach(function(a){
+  a.href = lineMsg('สนใจบริการตั้งนามสกุลมงคล แพ็กเกจ ' + a.dataset.pkg + ' ค่ะ/ครับ\n(ขอรับสิทธิ์ของแถม 10 ออเดอร์แรก)');
+});
+document.getElementById('promo-cta').href = lineMsg('ขอจองสิทธิ์ 10 ออเดอร์แรก รับของแถมสุดพิเศษ\nบริการ: ตั้งนามสกุลมงคล\nแพ็กเกจที่สนใจ:');
+
+/* ---------- ดวงตัวอย่างตามหลักโหราศาสตร์ไทย (นิรายนะ ลาหิรี) ---------- */
+(function(){
+  var PEOPLE = [
+    {who:'เจ้าของนามสกุล', d:15, m:7,  yBE:2530, hh:20, mi:30, lat:13.75, lon:100.50},
+    {who:'คู่สมรส',        d:3,  m:3,  yBE:2532, hh:7,  mi:15, lat:13.75, lon:100.50},
+    {who:'บุตร',           d:22, m:10, yBE:2560, hh:9,  mi:30, lat:18.79, lon:98.98}
+  ];
+  var CYCLE_MS = 7000;
+  var SIGNS = ['เมษ','พฤษภ','เมถุน','กรกฎ','สิงห์','กันย์','ตุลย์','พิจิก','ธนู','มังกร','กุมภ์','มีน'];
+  var PL = [['L','ล'],['1','๑'],['2','๒'],['3','๓'],['4','๔'],['5','๕'],['6','๖'],['7','๗'],['8','๘'],['0','๐']];
+  var PNAME = {'1':'อาทิตย์','2':'จันทร์','3':'อังคาร','4':'พุธ','5':'พฤหัสบดี','6':'ศุกร์','7':'เสาร์','8':'ราหู','0':'มฤตยู'};
+  var LETTERS = {'1':'สระทุกตัว','2':'ก ข ค ฆ ง','3':'จ ฉ ช ซ ฌ ญ','4':'ฎ ฏ ฐ ฑ ฒ ณ','5':'บ ป ผ ฝ พ ฟ ภ ม','6':'ศ ษ ส ห ฬ ฮ','7':'ด ต ถ ท ธ น','8':'ย ร ล ว'};
+  var LORD = ['3','6','4','2','1','4','6','3','5','7','7','5'];
+  var HOUSES = ['ตนุ','กดุมภะ','สหัชชะ','พันธุ','ปุตตะ','อริ','ปัตนิ','มรณะ','ศุภะ','กัมมะ','ลาภะ','วินาศ'];
+  // ภพเด่นสำหรับนามสกุลและครอบครัว
+  var KEY_HOUSES = [[1,'ทรัพย์สิน ความมั่งคั่ง'],[3,'บ้าน ครอบครัว วงศ์ตระกูล'],[4,'บุตรหลาน บริวาร'],[8,'บุญวาสนา ผู้ใหญ่อุปถัมภ์']];
+  var LAG_MEAN = [
+    'กล้าตัดสินใจ เป็นผู้นำของครอบครัว','หนักแน่น อดทน รักความมั่นคง เก่งเรื่องการสะสมทรัพย์','ไหวพริบดี ช่างเจรจา ปรับตัวเก่ง',
+    'ใส่ใจคน อ่อนโยน ผูกพันกับครอบครัว','มีบารมี มั่นใจในตัวเอง ให้ความสำคัญกับเกียรติของตระกูล','ละเอียดรอบคอบ วางแผนเก่ง',
+    'มีเสน่ห์ ประสานงานเก่ง เด่นเรื่องความสัมพันธ์','เด็ดเดี่ยว มุ่งมั่น ไม่ยอมแพ้ง่าย','มองการณ์ไกล ใจกว้าง ชอบเรียนรู้',
+    'ขยัน รับผิดชอบสูง สร้างฐานะด้วยความมั่นคง','หัวก้าวหน้า คิดสร้างสรรค์ มีเครือข่ายกว้าง','มีจินตนาการ เข้าใจผู้อื่น'
+  ];
+  var EXALT = {'1':0,'2':1,'3':9,'4':5,'5':3,'6':11,'7':6,'8':7};
+  var OWN = {'1':[4],'2':[3],'3':[0,7],'4':[2,5],'5':[8,11],'6':[1,6],'7':[9,10],'8':[10]};
+  var $ = function(id){ return document.getElementById(id); };
+
+  function compute(y, mo, d, hh, mi, lat, lon){
+    var A = window.Astronomy;
+    var t = A.MakeTime(new Date(Date.UTC(y, mo - 1, d, hh - 7, mi)));
+    var T = t.tt / 36525, ayan = 23.85709 + 1.396971 * T + 0.0003086 * T * T;
+    var sid = function(x){ x = (x - ayan) % 360; return x < 0 ? x + 360 : x; };
+    var o = {};
+    [['1','Sun'],['2','Moon'],['3','Mars'],['4','Mercury'],['5','Jupiter'],['6','Venus'],['7','Saturn'],['0','Uranus']].forEach(function(b){
+      o[b[0]] = sid(b[1] === 'Moon' ? A.EclipticGeoMoon(t).lon : A.Ecliptic(A.GeoVector(A.Body[b[1]], t, true)).elon);
+    });
+    o['8'] = sid(125.04452 - 1934.136261 * T + 0.0020708 * T * T);
+    var ramc = (A.SiderealTime(t) * 15 + lon) * Math.PI / 180, eps = (23.4392911 - 0.0130042 * T) * Math.PI / 180, phi = lat * Math.PI / 180;
+    var asc = Math.atan2(Math.cos(ramc), -(Math.sin(ramc) * Math.cos(eps) + Math.tan(phi) * Math.sin(eps))) * 180 / Math.PI;
+    o['L'] = sid(asc < 0 ? asc + 360 : asc);
+    return o;
+  }
+
+  var NS = 'http://www.w3.org/2000/svg', C = 220, svg = $('chart');
+  function pt(r, deg){ var a = (deg - 90) * Math.PI / 180; return [C + r*Math.cos(a), C + r*Math.sin(a)]; }
+  function arc(r1, r2, a1, a2){ var p1=pt(r2,a1), p2=pt(r2,a2), p3=pt(r1,a2), p4=pt(r1,a1); return 'M'+p1+' A'+r2+' '+r2+' 0 0 1 '+p2+' L'+p3+' A'+r1+' '+r1+' 0 0 0 '+p4+' Z'; }
+  function el(tag, attrs, parent){ var e = document.createElementNS(NS, tag); for (var k in attrs) e.setAttribute(k, attrs[k]); if (parent) parent.appendChild(e); return e; }
+  var segs = [];
+  SIGNS.forEach(function(s, i){
+    var a = -i * 30;
+    segs.push(el('path', {d: arc(94, 214, a - 15, a + 15), 'class':'sg'}, svg));
+    var q = pt(198, a); el('text', {x:q[0], y:q[1] + 4, 'text-anchor':'middle', 'class':'sname'}, svg).textContent = s;
+  });
+  var houseRing = el('g', {'class':'houses'}, svg), houseLabels = [];
+  HOUSES.forEach(function(h, i){
+    var a = -i * 30, key = KEY_HOUSES.some(function(k){ return k[0] === i; });
+    el('path', {d: arc(62, 92, a - 15, a + 15), 'class': 'hs' + (key ? ' key' : '')}, houseRing);
+    var q = pt(77, a), g = el('g', {transform:'translate(' + q[0] + ' ' + q[1] + ')'}, houseRing);
+    var t = el('text', {x:0, y:3.5, 'text-anchor':'middle', 'class': 'hname' + (key ? ' key' : '')}, g); t.textContent = h;
+    houseLabels.push(t);
+  });
+  el('circle', {cx:C, cy:C, r:60, 'class':'hub'}, svg);
+  var cap = el('text', {x:C, y:C - 8, 'text-anchor':'middle', 'class':'hub-cap'}, svg);
+  var main = el('text', {x:C, y:C + 15, 'text-anchor':'middle', 'class':'hub-main'}, svg);
+
+  var glyph = {}, pos = {}, KEYS = PL.map(function(p){ return p[0]; });
+  PL.forEach(function(p){
+    glyph[p[0]] = el('text', {'text-anchor':'middle', 'class': p[0] === 'L' ? 'pl lagt' : 'pl', opacity:0, x:C, y:C}, svg);
+    glyph[p[0]].textContent = p[1];
+    pos[p[0]] = {r:0, a:0, o:0};
+  });
+  var reduce = window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var seen = false, pending = null, raf = 0, ringRot = 0;
+  function targets(o){
+    var by = {}, tg = {};
+    PL.forEach(function(p){ var s = Math.floor(o[p[0]] / 30); (by[s] = by[s] || []).push(p[0]); });
+    Object.keys(by).forEach(function(s){
+      var list = by[s], n = Math.ceil(list.length / 2), c = pt(150, -s * 30);
+      list.forEach(function(key, i){
+        var row = Math.floor(i / 2), inRow = Math.min(2, list.length - row * 2);
+        var x = c[0] + (inRow === 2 ? (i % 2 ? 13 : -13) : 0), y = c[1] + 7 + (row - (n - 1) / 2) * 24;
+        tg[key] = {r: Math.hypot(x - C, y - C), a: Math.atan2(y - C, x - C) * 180 / Math.PI + 90, o: 1};
+      });
+    });
+    return tg;
+  }
+  function place(k, p){ var q = pt(p.r, p.a); glyph[k].setAttribute('x', q[0].toFixed(1)); glyph[k].setAttribute('y', q[1].toFixed(1)); glyph[k].setAttribute('opacity', Math.max(0, p.o).toFixed(2)); }
+  function animate(tg){
+    cancelAnimationFrame(raf);
+    var from = {}, to = {};
+    KEYS.forEach(function(k){
+      var f = pos[k], t = tg[k];
+      if (f.o < .01 && f.r === 0) f = {r: 0, a: t.a, o: 0};
+      from[k] = f;
+      to[k] = {r: t.r, a: f.a + (((t.a - f.a) % 360 + 540) % 360 - 180), o: t.o};
+    });
+    var dur = reduce ? 0 : 1100, t0 = performance.now();
+    function frame(now){
+      var busy = false;
+      KEYS.forEach(function(k, i){
+        var u = dur ? Math.min(1, Math.max(0, (now - t0 - i * 45) / dur)) : 1;
+        if (u < 1) busy = true;
+        var e = u < .5 ? 4 * u * u * u : 1 - Math.pow(-2 * u + 2, 3) / 2;
+        var f = from[k], t = to[k];
+        pos[k] = {r: f.r + (t.r - f.r) * e, a: f.a + (t.a - f.a) * e, o: f.o + (t.o - f.o) * e};
+        place(k, pos[k]);
+      });
+      if (busy) raf = requestAnimationFrame(frame);
+    }
+    raf = requestAnimationFrame(frame);
+  }
+  function turnHouses(lag){
+    var target = -lag * 30, delta = ((target - ringRot) % 360 + 540) % 360 - 180;
+    ringRot += delta;
+    houseRing.style.transform = 'rotate(' + ringRot + 'deg)';
+    houseLabels.forEach(function(t){ t.style.transform = 'rotate(' + (-ringRot) + 'deg)'; });
+  }
+  function setHub(c, m){
+    if (cap.textContent === c && main.textContent === m) return;
+    cap.style.opacity = main.style.opacity = 0;
+    setTimeout(function(){ cap.textContent = c; main.textContent = m; cap.style.opacity = main.style.opacity = 1; }, 180);
+  }
+
+  var charts = [], current = -1, timer = 0, userPicked = false;
+  function show(i){
+    if (i === current) return;
+    current = i;
+    var p = PEOPLE[i], o = charts[i], lag = Math.floor(o.L / 30);
+    segs.forEach(function(g, j){ g.setAttribute('class', j === lag ? 'sg lag' : 'sg'); });
+    var tg = targets(o);
+    if (seen) { animate(tg); turnHouses(lag); } else pending = {tg: tg, lag: lag};
+    setHub('ลัคนา' + p.who, 'ราศี' + SIGNS[lag]);
+    var strong = {};
+    ['1','2','3','4','5','6','7','8'].forEach(function(k){
+      var sg = Math.floor(o[k] / 30);
+      if (EXALT[k] === sg) strong[k] = 'อุจจ์';
+      else if (OWN[k].indexOf(sg) >= 0) strong[k] = 'เกษตร';
+    });
+    KEYS.forEach(function(k){ glyph[k].setAttribute('class', k === 'L' ? 'pl lagt' : (strong[k] ? 'pl strong' : 'pl')); });
+    var picks = [], why = {};
+    function addPick(k, reason){ if (!why[k]) { why[k] = []; picks.push(k); } if (why[k].indexOf(reason) < 0) why[k].push(reason); }
+    var html = '<dl class="readout"><dt>ลัคนา</dt><dd>ราศี' + SIGNS[lag] + '<span class="lag-mean">' + LAG_MEAN[lag] + '</span></dd></dl>'
+      + '<h4 class="houses-h">ภพเรือนดีสำหรับครอบครัว</h4><dl class="readout">';
+    KEY_HOUSES.forEach(function(kh){
+      var sign = (lag + kh[0]) % 12, lord = LORD[sign];
+      var inHouse = ['1','2','3','4','5','6','7','8','0'].filter(function(k){ return Math.floor(o[k] / 30) === sign; }).map(function(k){ return PNAME[k]; });
+      addPick(lord, 'เจ้าเรือน' + HOUSES[kh[0]]);
+      html += '<dt>' + HOUSES[kh[0]] + '</dt><dd>ราศี' + SIGNS[sign] + ' · เจ้าเรือน' + PNAME[lord]
+        + (inHouse.length ? ' · มี' + inHouse.join(' ') + 'สถิต' : '') + ' <em>(' + kh[1] + ')</em>'
+        + '<span class="hl-letters">' + LETTERS[lord] + '</span></dd>';
+    });
+    html += '</dl><h4 class="houses-h">ดาวที่ได้ตำแหน่งเด่น</h4>';
+    var sk = Object.keys(strong);
+    if (sk.length) {
+      html += '<dl class="readout">';
+      sk.forEach(function(k){
+        addPick(k, 'ดาว' + strong[k]);
+        html += '<dt>' + PNAME[k] + ' ' + PL.filter(function(p){ return p[0] === k; })[0][1] + '</dt><dd>' + strong[k] + ' ราศี' + SIGNS[Math.floor(o[k] / 30)]
+          + ' <em>(' + (strong[k] === 'อุจจ์' ? 'ดาวมีกำลังสูงสุด' : 'ดาวอยู่บ้านตัวเอง มีกำลังมาก') + ')</em><span class="hl-letters">' + LETTERS[k] + '</span></dd>';
+      });
+      html += '</dl>';
+    } else {
+      html += '<p class="none-strong">ดวงนี้ไม่มีดาวเกษตรหรืออุจจ์ จึงใช้อักษรจากดาวเจ้าเรือนภพดีเป็นหลัก</p>';
+    }
+    html += '<div class="picks"><p>อักษรที่ควรนำมาใช้ในนามสกุล</p>'
+      + picks.map(function(k){ return '<span><b>' + LETTERS[k] + '</b><small>' + PNAME[k] + ' · ' + why[k].join(', ') + '</small></span>'; }).join('') + '</div>';
+    $('chart-out').innerHTML = html;
+    document.querySelectorAll('.people button').forEach(function(b){ b.setAttribute('aria-pressed', String(+b.dataset.i === i)); });
+  }
+  function schedule(){
+    clearTimeout(timer);
+    if (reduce || userPicked) return;
+    timer = setTimeout(function(){ show((current + 1) % PEOPLE.length); schedule(); }, CYCLE_MS);
+  }
+  document.querySelectorAll('.people button').forEach(function(b){
+    b.addEventListener('click', function(){
+      userPicked = true; clearTimeout(timer);
+      show(+b.dataset.i);
+      track('chart_person_select', {person: PEOPLE[+b.dataset.i].who});
+    });
+  });
+  $('c-send').href = lineMsg('สนใจตั้งนามสกุลมงคล อยากให้ อ.ชัญ ผูกดวง\nชื่อจริง:\nวันเดือนปีเกิด:\nเวลาเกิด:\nจังหวัดที่เกิด:');
+  new IntersectionObserver(function(es){
+    if (es[0].isIntersecting && !seen) { seen = true; if (pending) { animate(pending.tg); turnHouses(pending.lag); } schedule(); }
+  }, {threshold: .3}).observe(svg);
+  function init(){
+    charts = PEOPLE.map(function(p){ return compute(p.yBE - 543, p.m, p.d, p.hh, p.mi, p.lat, p.lon); });
+    show(0);
+  }
+  if (window.Astronomy) init(); else $('astro-lib').addEventListener('load', init);
+})();
+</script>
+</body>
+</html>
